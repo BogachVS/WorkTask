@@ -68,7 +68,7 @@ public class Program
         Output(pallets);
     }
 }
-[DataContract] // Контракт данных необходим для привязки типу данных объекта 
+[DataContract] // Контракт данных необходим для привязки данных объекта 
 public class Box // Наша коробка
 {
     public DateOnly ExpirationDate;
